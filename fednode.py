@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3.6
 '''
 fednode.py: script to set up and manage a Counterparty federated node
 '''
@@ -18,7 +18,7 @@ import difflib
 from datetime import datetime, timezone
 
 
-VERSION="2.3.0"
+VERSION="2.3.1-mona0001"
 
 PROJECT_NAME = "federatednode"
 CURDIR = os.getcwd()
